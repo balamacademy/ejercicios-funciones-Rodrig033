@@ -23,7 +23,7 @@ int main(){
         leer_variable(indice);
         if (indice < 1 || indice > 5)
         {
-            cout << "Opcion invalida. Intenta de nuevo." << endl;
+            cout << "Opcion invalida. Intenta de nuevo: ";
         }
     
         }while(indice < 1 || indice > 5);

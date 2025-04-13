@@ -26,7 +26,7 @@ int main(){
         leer_variable(opcion);
         if (opcion < 1 || opcion > 5)
         {
-            cout << "Opcion invalida. Intenta de nuevo." << endl;
+            cout << "Opcion invalida. Intenta de nuevo: ";
         }
     
         }while(opcion < 1 || opcion > 5);

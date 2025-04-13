@@ -20,10 +20,11 @@ int main(){
     {
         menu();
         do{
+        cout << "Elige una opcion: ";
         leer_variable(indice);
         if (indice < 1 || indice > 5)
         {
-            cout << "Opcion invalida. Intenta de nuevo: ";
+            cout << "Opcion invalida. Intenta de nuevo." << endl;
         }
     
         }while(indice < 1 || indice > 5);

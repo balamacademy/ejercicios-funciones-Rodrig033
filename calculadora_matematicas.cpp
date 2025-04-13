@@ -22,7 +22,15 @@ int main(){
     while (opcion != 5)
     {
         menu();
+        do{
         leer_variable(opcion);
+        if (opcion < 1 || opcion > 5)
+        {
+            cout << "Opcion invalida. Intenta de nuevo." << endl;
+        }
+    
+        }while(opcion < 1 || opcion > 5);
+        
         switch(opcion){
             case 1:
             cout << "Ingrese valor 1: ";
